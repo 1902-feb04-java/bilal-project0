@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spectrum: Music Visualizer Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="spectrumIcon.png"><!--icon for the browser tab-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id =  "gameTitle">
+       Spectrum 
+    </h1>
+    
+    <div id = "playGame">
+        <canvas name = "workspace" id =  "workspace" width = "800" height="450">
+        </canvas><!-- the game area-->
+        <br>
+        <input type = "file" id = "track" accept = "audio/*" />
+        <audio id = "audio" crossorigin = "anonymous" controls></audio>
+        <!-- crossorigin was added because I got "MediaElementAudioSource outputs zeroes due to CORS access restrictions" in the console-->
+    </div>
+
+    <p>
+        This is a placeholder text. After I come with the rules of the minigame, I will list out the rules here.
+    </p>
+
+
+
+</body>
+</html>

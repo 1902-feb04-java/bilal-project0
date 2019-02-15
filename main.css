@@ -1,0 +1,20 @@
+html{
+    background-image: linear-gradient(to right, 
+    rgb(53, 52, 52), rgb(112, 112, 112));
+}
+
+#gameTitle{
+    color: beige;
+    text-align: center;
+}
+
+#playGame{
+    /* position: fixed; */
+    text-align: center;
+}
+
+#workspace {
+    border: 2px ridge beige;
+    text-align: center; 
+    cursor: crosshair;
+}
