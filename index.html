@@ -16,17 +16,25 @@
        Spectrum 
     </h1>
     
-    <div id = "playGame">
+    <inp id = "playGame">
         <canvas name = "workspace" id =  "workspace" width = "800" height="450">
         </canvas><!-- the game area-->
         <br>
         <input type = "file" id = "track" accept = "audio/*" />
+        
+        <!-- <input type = "button" value = "New Colours" name = "palette" id = "palette"> -->
+        <!-- <br> -->
+
+        <input type = "button" value = "Style 1" name = "mode1" id = "mode1"  class = "mode">
+        <input type = "button" value = "Style 2" name = "mode2" id = "mode2"  class = "mode">
+        <input type = "button" value = "Style 3" name = "mode3" id = "mode3"  class = "mode">
+        
         <audio id = "audio" crossorigin = "anonymous" controls></audio>
         <!-- crossorigin was added because I got "MediaElementAudioSource outputs zeroes due to CORS access restrictions" in the console-->
     </div>
 
     <p>
-        This is a placeholder text. After I come with the rules of the minigame, I will list out the rules here.
+        Press [Enter] to start the visualization and Press [Space] to pause
     </p>
 
 
