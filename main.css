@@ -19,6 +19,7 @@ html{
 #gameTitle{
     color: beige;
     text-align: center;
+    filter: blur(1px);
 
 }
 
